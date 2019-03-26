@@ -60,8 +60,8 @@ class App extends Component {
     return (
       <div>
         <Header
-          title="React Clicky Game"
-          desc="A React memory game."
+          title="Persona Memory Game"
+          desc="A Persona 5 memory game using React."
           rules="Click on an image to earn points, but don't click on an image more than once."
         />
         <ScoreBar score={this.state.score} />
