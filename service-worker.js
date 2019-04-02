@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/lagilles/clickyGame/precache-manifest.56459e00e69da21567b549a40073d09c.js"
+  "/clickyGame/precache-manifest.1bd0766746bc1e5ac97bae40f84702b7.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/lagilles/clickyGame/index.html", {
+workbox.routing.registerNavigationRoute("/clickyGame/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
