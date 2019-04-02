@@ -1,8 +1,9 @@
 .jumbotron {
   margin-bottom: 0px;
-  color: black;
-  background-image: url(../../images/gplaypattern.png);
-  background-repeat: repeat;
+  color: white;
+  background-image: url(../../images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
   padding: 30px 0px;
 }
 
